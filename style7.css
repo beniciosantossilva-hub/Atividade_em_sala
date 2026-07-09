@@ -1,0 +1,57 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 40px;
+}
+
+.container{
+    background-color: aliceblue;
+    max-width: 450px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px (0, 0, 0, 0.1);
+}
+
+h1{
+    color: gray;
+}
+
+label{
+    display: block;
+    margin-top: 15x;
+    font-weight: bold;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+}
+
+.botao{
+    margin-top: 20px;
+}
+
+button{
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: aquamarine;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+#resultado{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
