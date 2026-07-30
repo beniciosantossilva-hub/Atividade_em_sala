@@ -1,0 +1,48 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 40px;
+}
+
+.container{
+    background-color: azure;
+    max-width: 420px;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0 0 10px black;
+}
+
+h1{
+    color: darkslategray;
+}
+
+label{
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+input{
+    width: 90%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid seashell;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+#resultado{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkslategrey;
+}
