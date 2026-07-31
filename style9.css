@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    text-align: center;
+    padding: 40px;
+}
+
+.container{
+    background-color: azure;
+    max-width: 420px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px black;
+}
+
+h1{
+    color: darkslategrey;
+}
