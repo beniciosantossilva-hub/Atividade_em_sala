@@ -61,4 +61,66 @@ button{
     flex: 1;
     padding: 12px 16px;
     border: none;
+    border-radius: 8px;
+    background-color: #174ea6;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #0f3d82;
+}
+
+button.secun{
+    background-color: #607d8b;
+}
+
+button.secun:hover{
+    background-color: #455a64;
+}
+
+.painel-resultado{
+    margin-top: 26px;
+    padding: 20px;
+    border-left: 5px solid #174ea6;
+    border-radius: 8px;
+    background-color: #f5f8fc;
+}
+
+.painel-resultado h2{
+    margin-top: 0;
+    font-size: 20px;
+}
+
+#mensagem{
+    color: #52606d;
+}
+
+#resultado{
+    min-height: 52px;
+    margin-bottom: 0;
+    color: #174ea6;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.7;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 520){
+    body{
+        padding: 20 12px;
+    }
+
+    .container{
+        padding: 22px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    .butao{
+        flex-direction: column;
+    }
 }
